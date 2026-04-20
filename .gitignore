@@ -6,4 +6,4 @@ __pycache__/
 .coverage
 .pytest_cache/
 .ruff_cache/
-*.egg-info/
+src/mlops_ovtsupa_test.egg-info
