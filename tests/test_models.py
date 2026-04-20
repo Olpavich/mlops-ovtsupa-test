@@ -13,7 +13,7 @@ from src.models import model
 @pytest.mark.parametrize(
         "value, weight, bias, expected",
         [
-            (2, 3, 4, 10),          # Example from docstring
+            (2, 3, 4, 10),          # Example from docstring.
             (0, 5, 10, 10),         # Zero value should return bias
             (1, 0, 5, 5),           # Zero weight should retur bias
             (3, 2, 1 , 7),          # General case
