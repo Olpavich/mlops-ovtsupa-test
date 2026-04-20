@@ -1,0 +1,39 @@
+Metadata-Version: 2.4
+Name: mlops-ovtsupa-test
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: ==3.14.4
+Description-Content-Type: text/markdown
+Requires-Dist: black==26.3.1
+Requires-Dist: ipykernel==7.2.0
+Requires-Dist: isort==8.0.1
+Requires-Dist: loguru==0.7.3
+Requires-Dist: matplotlib==3.10.8
+Requires-Dist: numpy==2.4.4
+Requires-Dist: pandas==3.0.2
+Requires-Dist: pre-commit==4.5.1
+Requires-Dist: pyarrow==23.0.1
+Requires-Dist: pylint==4.0.5
+Requires-Dist: pytest==9.0.3
+Requires-Dist: pytest-cov==7.1.0
+Requires-Dist: ruff==0.15.11
+Requires-Dist: scikit-learn==1.8.0
+Requires-Dist: seaborn==0.13.2
+
+# MLOps OVTsupa Test
+
+Project Description
+
+Setup Instructions
+1. Clone the repository:
+    ```bash
+    git clone git@github.com:Olpavich/mlops-ovtsupa-test.git
+    cd mlops-ovtsupa-test
+    ```
+2. Create a project:
+    ```bash
+    uv python pin 3.14.4
+    uv init
+    uv venv
+    uv add --requirements requirements.txt
+    ```

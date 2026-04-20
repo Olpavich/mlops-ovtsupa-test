@@ -2,4 +2,7 @@ venv
 .venv
 .env
 .DS_Store
-__pycahe__
+__pycache__
+.coverage
+.pytest_cache
+.ruff_cache
